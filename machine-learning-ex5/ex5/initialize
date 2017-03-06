@@ -1,0 +1,6 @@
+function initialize()
+  for j = indices
+    allfiles{i} = strcat('symbol_', num2str(i)); = getFiles(symbols{i});
+end
+
+end
